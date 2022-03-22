@@ -1,1 +1,1 @@
-# Landing-page
+This project aims at showcasing the abilities of the student regarding the concepts learned about FLEXBOX.
