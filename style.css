@@ -27,6 +27,7 @@ body {
     font-weight: 200;
     color: white;
     bottom: 0;
+    flex: 1 0 auto;
 }
 
 /* Container of the main body */
@@ -43,7 +44,7 @@ body {
     padding: 5px 150px;
     height: 350px;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 /* First subsubcontainer */
@@ -55,6 +56,13 @@ body {
     flex: 1 0 auto;
     max-width: 400px;
 }
+
+/* Image of the first subsubcontainer */
+.container1 .image {
+    background-color: rgba(128, 128, 128, 0.486);
+    padding: 90px 130px;
+}
+
 
 .subcontainer1 .title {
     font-size: 48px;
@@ -71,7 +79,24 @@ body {
     width: 100px;
     color: white;
     font-weight: 600;
+    margin-top: 16px;
 }
+
+/* ---------------------------- */
+/* Container2 */
+.container2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container2 .title2 {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+
 
 ul {
     list-style-type: none;
