@@ -16,6 +16,17 @@ body {
     color: white;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 63px;
+    background-color: rgb(42, 58, 105);
+    font-size: 15px;
+    font-weight: 200;
+    color: white;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -29,8 +40,5 @@ a {
     font-size: 15px;
     font-weight: 200;
     color: white;
-}
-
-a {
     text-decoration: none;
 }
