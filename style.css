@@ -60,7 +60,13 @@ body {
 /* Image of the first subsubcontainer */
 .container1 .image {
     background-color: rgba(128, 128, 128, 0.486);
-    padding: 90px 130px;
+    height: 300px; 
+    width: 500px;
+}
+
+.container1 img {
+    height: 300px;
+    width: 500px;
 }
 
 
