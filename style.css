@@ -151,6 +151,23 @@ body {
     font-size: 20px;
 }
 
+/* ---------------------------- */
+/* Container4 */
+
+.container4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+}
+
+.container4 .box {
+    display: flex;
+    background: #3882F6;
+    border: 1px solid #3882F6;
+    border-radius: 15px;
+    padding: 50px 200px;
+}
 
 
 
