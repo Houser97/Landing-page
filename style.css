@@ -59,8 +59,15 @@ body {
 
 /* Image of the first subsubcontainer */
 .container1 .image {
-    background-color: rgba(128, 128, 128, 0.486);
-    padding: 90px 130px;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 300px; 
+    width: 500px;
+}
+
+.container1 img {
+    height: 300px;
+    width: 500px;
 }
 
 
@@ -115,6 +122,11 @@ body {
     width: 150px;
 }
 
+.container2 img{
+    width: 150px;
+}
+
+
 .container2 img {
     width: 130px;
     height: 130px;
@@ -128,6 +140,7 @@ body {
 
 .container3 {
     display: flex;
+    flex: 1 0 auto;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -141,6 +154,7 @@ body {
     color: #1F2937;
     margin: 30px 300px;
     margin-bottom: 0px;
+    overflow: hidden;
 }
 
 .container3 .quote {
